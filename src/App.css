@@ -1,0 +1,57 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Main Layout */
+.main {
+  display: flex;
+  height: 70vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 15px;
+}
+
+/* Content */
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Inputs & Button */
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  width: 80%;
+}
